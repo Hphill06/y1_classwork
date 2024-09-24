@@ -27,11 +27,11 @@ int main() {
     for (int hour = userHour ; hour >= 0; hour--) {
         for (int minute = userMin; minute >= 0; minute--) {
             for (int second = userSec; second >= 0; second--) {
-
+                // prints out timer
                 cout << setw(2) << hour << ":";
                 cout << setw(2) << minute << ":";
                 cout << setw(2) << second << endl;
-                sleep_until(system_clock::now() + seconds(1));
+                sleep_until(system_clock::now() + seconds(1)); // pauses for 1 second
             }
             userSec = 59; // sets a min back to being 59 seconds since when its first run user sec is treated as the length of a full min
             
