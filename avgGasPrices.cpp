@@ -1,3 +1,15 @@
+/*
+you need a .txt file inside the program as well with a format that is: 
+01 1.2
+01 1.3
+...
+12 2.3
+12 2.4
+
+the first value is the month, the second value is the price, you can do it by per week or day if you want to :)
+sample file is included in this same folder
+
+*/
 #include <iostream>
 #include <fstream>
 #include <vector>
