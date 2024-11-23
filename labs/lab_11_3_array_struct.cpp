@@ -4,7 +4,7 @@ using namespace std;
 // This program demonstrates how to use an array of structures 
 // hudson phillips
 // Fill in code to declare a structure called taxPayer that has three 
-// members: taxRate, income, and taxes — each of type float 
+// members: taxRate, income, and taxes â€” each of type float 
 
 /*
 Please enter the annual income and tax rate for 5 tax payers:
